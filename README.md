@@ -1,13 +1,13 @@
 # DynamicPLaplacian.jl
 
-Loose collection of numerical methods reproducing the figures of [[1]](#cit1).
+A loose collection of numerical methods reproducing the figures of [[1]](#cit1).
 
 This package implements the local min-max algorithm for computing
 eigenpairs described by Yao & Zhou [[2]](#cit2), with adjustments for
 treating a p-Laplacian involving dynamics.
 
 ## Reproducing figures 
-The results from [[1]](#cit1) were obtained using julia v1.9.0
+The results from [[1]](#cit1) were obtained using julia v1.9.0.on Fedora 37.
 To reproduce them, make sure that a working
 LaTeX distribution including the PGFPlots package is installed, 
 as the plots are generated using the julia wrapper [PGFPlotsX](https://kristofferc.github.io/PGFPlotsX.jl/stable/).
