@@ -82,6 +82,7 @@ yy = range(0, 1, length=40)
 pts = [[x,y] for x in xx, y in yy]
 zzs1 = first_lap_eig.(pts)
 
+xxx = range(0, 1, length=100)
 yyy = range(0, 1, length=100)
 ppts = [[x,y] for x in xxx, y in yyy]
 zzz = first_lap_eig.(ppts)
