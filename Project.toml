@@ -1,0 +1,32 @@
+name = "DynamicPLaplacian"
+uuid = "064d1f73-0727-4f9c-845f-f3154a0aba49"
+authors = ["Alvaro de Diego <dediego@ma.tum.de>"]
+version = "0.1.0"
+
+[deps]
+Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
+Contour = "d38c429a-6771-53c6-b99e-75d170b6e991"
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Gridap = "56d4f2e9-7ea1-5844-9cf6-b9c51ca7ce8e"
+GridapGmsh = "3025c34a-b394-11e9-2a55-3fee550c04c8"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Memoization = "6fafb56a-5788-4b4e-91ca-c0cea6611c73"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[compat]
+Arpack = "=0.5.3, 0.5.5"
+Contour = "=0.6.2"
+DifferentialEquations = "=7.8.0"
+ForwardDiff = "=0.10.36"
+Gridap = "=0.17.17"
+GridapGmsh = "=0.6.1"
+JLD2 = "=0.4.33"
+Memoization = "=0.2.1"
+Optim = "=1.7.6"
+ProgressMeter = "=1.7.2"
+julia = "1"

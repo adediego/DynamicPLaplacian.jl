@@ -1,0 +1,8 @@
+*.swp
+results/*
+docs/build/
+examples/reproduce_plots_finitediff/figures/*
+examples/reproduce_plots_finitediff/results/*
+examples/reproduce_plots/figures/*
+examples/reproduce_plots/results/*
+
