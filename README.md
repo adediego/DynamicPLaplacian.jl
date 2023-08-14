@@ -25,7 +25,8 @@ have to be run again, as the results are cached on disc in `./results`.
 Run `julia --project run_plots.jl` to just run the plotting code.
 
 ## References
-<a id="cit1">[1]</a> Alvaro de Diego, Gary Froyland, Oliver Junge, Peter Koltai, "A dynamic p-Laplacian" (arxiv preprint)  
+<a id="cit1">[1]</a> Alvaro de Diego, Gary Froyland, Oliver Junge, Peter Koltai, "A dynamic p-Laplacian", 
+[arXiv:2308.05947](https://arxiv.org/abs/2308.05947)  
 <a id="cit2">[2]</a>
 X. Yao & Zhou, Numerical Methods for Computing Nonlinear Eigenpairs: Part I. Iso-Homogeneous Cases,
 SIAM J. SCI. COMPUT., Vol. 29, No. 4, pp. 1355–1374
